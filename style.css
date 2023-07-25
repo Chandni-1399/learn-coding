@@ -1,0 +1,174 @@
+* {
+    font-family: fangsong;
+}
+
+.navbar {
+    background-color: hwb(180deg 9% 54%);
+    padding: 15px;
+    font-size: large;
+    top: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar a {
+    margin-left: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn {
+    display: inline-flexbox;
+    border-radius: 5%;
+}
+
+.btn-primary {
+    background-color: rgba(11, 30, 235, 0.863);
+}
+
+.btn-warning {
+    background-color: rgba(255, 221, 0, 0.89);
+    color: black;
+}
+
+.mt-1px {
+    margin-top: 1px;
+}
+
+.row {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid rgba(128, 128, 128, 0.667);
+    padding: 10px;
+    margin: 10px;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card a {
+    color: darkgreen;
+    font-size: large;
+}
+
+.card p {
+    color: rgb(93, 78, 78);
+    text-align: justify;
+    font-family: cursive;
+}
+
+.text-primary {
+    color: rgb(168, 168, 237);
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgb(15, 20, 20);
+    padding: 3px;
+}
+
+.position {
+    position: sticky;
+}
+
+.p-4 {
+    padding: 25px;
+    font-family: ui-serif;
+    font-size: large;
+}
+
+.p-5 {
+    padding: 30px;
+    color: white;
+    background-color: rgb(7, 77, 58);
+}
+
+.p-1 {
+    padding: 40px;
+    font-family: ui-serif;
+    font-size: large;
+}
+
+.p-3 {
+    padding-left: 18px;
+}
+
+.border {
+    border: 2px solid gray;
+    margin: 5px;
+    background-color: rgba(210, 236, 247, 0.952);
+}
+
+input,
+select {
+    width: 250px;
+    height: 25px;
+}
+
+.mt-3 {
+    margin: 30px;
+}
+
+.p-2 {
+    margin: 5px;
+}
+
+nav a:hover {
+    background: rgb(74, 74, 74);
+    color: rgb(26, 155, 225);
+    border-radius: 5%;
+}
